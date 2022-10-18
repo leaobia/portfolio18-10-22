@@ -1,0 +1,61 @@
+:root{
+    --prime-color:#FEDC00;
+    --icon-color:#252525;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffff;
+    background-color: black;
+    display: grid;
+    grid-template-areas: "content";
+}
+header{
+    height: 100px;
+    place-self: start center;
+    grid-area: content;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+section{
+    height: 100vh;
+    width: 100%;
+
+}
+.home{
+    background-color: black;
+}
+.sobre-mim{
+    
+    
+}
+.projetos{
+    background-color: beige;
+    
+}
+.contato{
+    background-color: teal;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    grid-area: content;
+    place-self: end start;
+    width: 100%;
+}

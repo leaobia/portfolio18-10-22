@@ -1,0 +1,13 @@
+.logo{
+    font-size: 1.5rem;
+}
+.logo::before{
+    content: "<";
+    color: var(--prime-color);
+    font-weight: 700;
+}
+.logo::after{
+    content: "/>";
+    color: var(--prime-color);
+    font-weight: 700;
+}
