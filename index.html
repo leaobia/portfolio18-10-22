@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,21 +15,27 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <title>Portfólio - Bianca Leão</title>
 </head>
+
 <body>
     <header>
         <div class="logo">bibis</div>
         <nav>
             <ul class="menu">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre-mim">Sobre mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contatos">Contato</a></li>
+                <li class="pag"><a href="#home">Início</a></li>
+                <li class="pag"><a href="#sobre-mim">Sobre mim</a></li>
+                <li class="pag"><a href="#projetos">Projetos</a></li>
+                <li class="pag"><a href="#contatos">Contato</a></li>
+                <li class="bar"><i class="fas fa-bars"></i></li>
             </ul>
+            
         </nav>
     </header>
     <main>
+        <a href="#" class="back" title="voltar"><i class="fas fa-angle-double-up"></i></a>
         <section class="home" id="home">
             <img src="./img/WhatsApp Image 2022-10-03 at 15.00 1 (1).png" alt="foto" class="home__photo">
             <div>
@@ -41,44 +48,107 @@
             <h2 class="section-title">Sobre mim</h2>
             <div class="description">
                 <h3 class="description__title">Quem sou?</h3>
-                <p class="description__text">Sou iniciante na área de criação e manutenção de sites, tenho conhecimento de prototipação de designer sempre prensando na experiência do ususário.
-                    Sou apaixonado pelo mundo digital e principalmente desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.</p>
+                <p class="description__text">Sou iniciante na área de criação e manutenção de sites, tenho conhecimento
+                    de prototipação de designer sempre prensando na experiência do ususário.
+                    Sou apaixonado pelo mundo digital e principalmente desenvolvimento, sempre procurando inspiração nos
+                    meus colegas de trabalho e no mundo que me rodeia.</p>
             </div>
             <div class="skills">
                 <h3 class="skills__title">Skills</h3>
-                <div class="skills__icons"> 
+                <div class="skills__icons">
                     <div class="icon">
                         <i class="fa-brands fa-html5"></i>
-                        <span>HTML</span> 
+                        <span>HTML</span>
                     </div>
                     <div class="icon">
                         <i class="fa-brands fa-html5"></i>
-                        <span>HTML</span> 
+                        <span>HTML</span>
                     </div>
                     <div class="icon">
                         <i class="fa-brands fa-html5"></i>
-                        <span>HTML</span> 
+                        <span>HTML</span>
                     </div>
                     <div class="icon">
                         <i class="fa-brands fa-html5"></i>
-                        <span>HTML</span> 
+                        <span>HTML</span>
                     </div>
                     <div class="icon">
                         <i class="fa-brands fa-html5"></i>
-                        <span>HTML</span> 
+                        <span>HTML</span>
                     </div>
                     <div class="icon">
                         <i class="fa-brands fa-html5"></i>
-                        <span>HTML</span> 
+                        <span>HTML</span>
                     </div>
                 </div>
             </div>
-               
+
             </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contatos"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="#" class="card">
+                    <img src="./img/trab1.png" alt="job1">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/screenshot 2.png" alt="job2">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/screenshot 3.png" alt="job3">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/screenshot 4.png" alt="job4">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/screenshot 5.png" alt="job5">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/screenshot 6.png" alt="job6">
+                </a>
+            </div>
+        </section>
+        <section class="contato" id="contatos">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <h3 class="contato-title">Contato</h3>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(11) 95866-7824</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>@biancapeleao@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Senai Jandira</span>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="social-container">
+                <li class="social-item"><i class="fab fa-instagram"></i></li>
+                <li class="social-item"><i class="fab fa-twitter"></i></li>
+                <li class="social-item"><i class="fab fa-youtube"></i></li>
+                <li class="social-item"><i class="fab fa-linkedin"></i></li>
+                <li class="social-item"><i class="fab fa-github"></i></li>
+            </ul>
+            <ul class="link-container">
+                <li class="link-title"><h3>Links</h3></li>
+                <li><a href="#home">Ínicio</a></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </section>
     </main>
-    <footer>footer</footer>
+    <footer>Todos os Direitos Reservados | 2022 | Desenvolvido Bianca Leão</footer>
 </body>
+
 </html>

@@ -64,3 +64,35 @@
     font-size: 1.5rem;
     font-weight: 700;
 }
+@media (max-width: 965px){
+    .sobre-mim{
+        max-width: 960px;
+        grid-template-areas: "title"
+        "description"
+        "skills";
+        height: 55vh;
+        
+    }
+    .section-title{
+        width: 51vw;
+        font-size: clamp(1rem,10vw,8rem);
+        
+    
+    }
+    .description{
+        
+        grid-area: description;
+    }
+    
+    .description__title{
+        place-self: start;
+        color: var(--prime-color);
+    }
+    
+    .description__text{
+        font-size: 1.3rem;
+        line-height: 150%;
+    }
+
+    
+}
