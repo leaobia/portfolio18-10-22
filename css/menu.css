@@ -14,16 +14,4 @@
 .menu li:hover{
     border-bottom: 4px solid var(--prime-color);
 }
-@media (max-width: 965px){
-    .menu{
-        margin-left: 36%;
-        width: 960px;
-    }
 
-   .pag{
-    display: none;
-   }
-   .bar{
-    color: #ffff;
-   }
-}

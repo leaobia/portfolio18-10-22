@@ -20,26 +20,3 @@
     color: var(--prime-color);
 }
 
-@media (max-width: 965px) {
-    .home {
-        flex-direction: column;
-        width: 100%;
-        margin-right: 50%;
-        height: 60vh;
-
-    }
-
-    .home__photo {
-        width: 30%;
-
-    }
-
-    .home__text {
-        font-size: 2rem;
-    }
-
-    .home__name {
-        font-size: 3.8rem;
-
-    }
-}

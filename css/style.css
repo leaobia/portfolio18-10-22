@@ -72,17 +72,3 @@ footer{
     border-top: 2px solid #ffff ;
     width: 100%;
 }
-@media (max-width: 965px){
-
-    header{
-        place-content: center;
-        max-width: 960px;
-    }
-    .logo{
-        margin-left: 10%;
-    }
-   main{
-    max-width: 960px;
-   }
- 
-  }

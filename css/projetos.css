@@ -39,14 +39,4 @@
 .card:hover::before {
     transform: translateY(0%);
 }
-@media (max-width: 965px){
-    .projetos{
-        max-width: 960px; 
-        margin-right: 50%;
-    }
-    .card-container{
-        display: flex;
-        flex-direction: column;
-        
-    }
-}
+
