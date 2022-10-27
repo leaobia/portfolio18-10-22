@@ -19,4 +19,29 @@
     font-weight: bold;
     color: var(--prime-color);
 }
+@media (max-width:960px){
+    .home{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        gap: 64px;
+        width: 100%;
+    }
+    .home__text{
+        display: flex;
+        justify-content: center;
+    }
+}
 
+/* MOBILE */
+@media (max-width:640px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__text{
+        display: flex;
+        justify-content: center;
+    }
+}

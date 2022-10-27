@@ -64,3 +64,59 @@
     font-size: 1.5rem;
     font-weight: 700;
 }
+@media (max-width:960px){
+    .sobre-mim{
+       
+        width: 100%;
+        display: flex;
+        flex-direction: column;   
+        place-content: center;
+    }
+    .description{
+        margin-left: 5%;
+    }
+    .skills{
+        gap: 10px;
+        margin-left: 5%;
+       
+    }
+    .description__text{
+        font-size: 1.5rem;
+        max-width: 100%;
+    }
+    .skills__icons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        max-width: 90%;
+       
+        
+        
+    }
+    .icon{
+        width: 200px;
+        height: 200px;
+        background-color: var(--icon-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .icon i{
+        font-size: 4rem;
+    }
+
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .sobre-mim{
+        max-width: 592px;
+        width: 100%;
+    }
+    .skills__icons{
+        display: flex;
+        justify-content: center;
+    }
+}

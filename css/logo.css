@@ -11,3 +11,13 @@
     color: var(--prime-color);
     font-weight: 700;
 }
+@media (max-width: 850px){
+    :root{
+        --space-default: 30px;
+    }
+
+   .logo{
+    font-size: 20px;
+    width: 150px;
+}
+}

@@ -72,3 +72,22 @@ footer{
     border-top: 2px solid #ffff ;
     width: 100%;
 }
+@media (max-width:960px){
+
+    .projetos{
+        height: 260vh;
+    }
+    header{
+        width: 50%;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .sobre-mim{
+        height: 160vh;
+    }
+    .projetos{
+        height: 100vh;
+    }
+}

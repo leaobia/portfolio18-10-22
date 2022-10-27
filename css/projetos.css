@@ -39,4 +39,39 @@
 .card:hover::before {
     transform: translateY(0%);
 }
+/* TABLET */
+@media (max-width:960px){
+    .projetos{
+        max-width: 672px;
+        height: 170vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 392px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }    
+}
 
+/* MOBILE */
+@media (max-width:640px){
+    .projetos{
+        max-width: 592px;
+        width: 100%;
+        align-items: center;
+    }
+    .card{
+        width: 540px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }  
+}
