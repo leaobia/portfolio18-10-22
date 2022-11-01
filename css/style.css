@@ -74,9 +74,7 @@ footer{
 }
 @media (max-width:960px){
 
-    .projetos{
-        height: 260vh;
-    }
+
     header{
         width: 50%;
     }
@@ -84,10 +82,8 @@ footer{
 
 /* MOBILE */
 @media (max-width:640px){
-    .sobre-mim{
-        height: 160vh;
-    }
-    .projetos{
-        height: 100vh;
-    }
+  footer{
+    height: 30vh;
+  }
+
 }
