@@ -101,7 +101,7 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        
+        margin-left: 15%;
 
     } 
     .card-container a img{
