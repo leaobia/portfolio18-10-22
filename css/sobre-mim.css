@@ -117,6 +117,7 @@
     }
     .skills__icons{
         display: flex;
+        width: 50%;
         justify-content: center;
     }
 }

@@ -88,6 +88,7 @@
         max-width: 592px;
         width: 100%;
         align-items: center;
+        height: 100vh;
     }
     .card{
         width: 540px;
@@ -99,5 +100,6 @@
     .card-container a img{
         width: 300px;
         height: 187.5px;
+        margin-left: 5%;
     }
 }
