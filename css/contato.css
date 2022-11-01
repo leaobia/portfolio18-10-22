@@ -98,7 +98,7 @@
         height: 200vh;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 16px;
        
        
     }
@@ -115,6 +115,10 @@
         flex-direction: column;
         place-self: center;
        
+    }
+    .link-container{
+        gap: 5px;
+        padding-bottom: 20px;
     }
 }
 
