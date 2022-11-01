@@ -17,8 +17,8 @@
 
 @media (max-width:960px){
     header{
-        max-width: 868px;
-        width: 50%;
+        height: auto;
+        width: 90%;
         display: flex;
         justify-content: space-between;
     }
@@ -38,15 +38,10 @@
 /* MOBILE */
 @media (max-width:640px){
     header{
-        max-width: 592px;
-        width: 100%;
+        height: auto;
+        width: 90%;
     }
-    .logo{
-        margin-left: 20vw;
-    }
-    .bar{
-        margin-right: 20vw;
-    }
+
   
 }
 
