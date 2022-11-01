@@ -106,16 +106,19 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 30px;
+        
         
        
        
     }
     .contato-title{
         display: none;
+       
     }
     .contato-item{
         justify-content: center;
+        
       
     }
 
@@ -126,11 +129,11 @@
        
     }
     .link-title{
-        margin-bottom: 5vh;
+        
     }
   
     .link-container{
-        padding-bottom: 25vh;
+       
     }
 
 }
