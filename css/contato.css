@@ -119,6 +119,7 @@
     .link-container{
         gap: 3px;
         margin-bottom: 5px;
+        place-self: center;
     }
 }
 
