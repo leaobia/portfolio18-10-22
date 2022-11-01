@@ -66,10 +66,10 @@
         max-width: 592px;
         width: 100%;
         align-items: center;
-        height: 100vh;
+        height: 300vh;
     }
     .card{
-        width: 540px;
+        width: 500px;
         height: auto;
         display: flex;
         flex-direction: column;
