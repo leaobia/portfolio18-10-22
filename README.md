@@ -6,7 +6,7 @@
 
 ## Sobre
 
-Site do tipo portfólio, onde mostro meus projetos, falo sobre mim e  informações para contato. 
+Portfólio onde apresento técnicas aprendidas no curso senai Desenvolvimento de Sistemas. 
 O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no curso do [Senai Jandira](https://jandira.sp.senai.br/). 
 
 ---
@@ -20,4 +20,5 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no c
 
 ## Autor 
 
-- [Bianca Leão](https://github.com/leaobia)
+- O site foi realizado por mim, [Bianca Leão](https://github.com/leaobia)
+- Você pode me contatar através do meu [Linkedin](https://www.linkedin.com/in/bianca-leao-411808227/)
