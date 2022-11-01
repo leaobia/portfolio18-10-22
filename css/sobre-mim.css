@@ -78,6 +78,7 @@
     .skills{
         gap: 10px;
         margin-left: 5%;
+        height: 100vh;
        
     }
     .description__text{
