@@ -119,11 +119,9 @@
     .link-title{
         margin-bottom: 5vh;
     }
-    .link-container{
-        margin-bottom: 5vh;
-    }
-    .link-container li a{
-       
+  
+    .ultimolink{
+        margin-bottom: 3vh;
     }
 
 }
