@@ -66,11 +66,11 @@
         max-width: 592px;
         width: 100%;
         align-items: center;
-        height: 300vh;
+        height: 360vh;
         margin-top: 50vh;
     }
     .card{
-        width: 480px;
+        width: 392px;
         height: auto;
         display: flex;
         flex-direction: column;
