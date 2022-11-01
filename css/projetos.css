@@ -90,17 +90,23 @@
         align-items: center;
         height: 300vh;
     }
+    .card-container{
+        
+        margin-left: 30%;
+        
+    }
     .card{
         width: 540px;
         height: auto;
         display: flex;
         flex-direction: column;
-        margin-left: 30%;
+        
 
     } 
     .card-container a img{
         width: 300px;
         height: 187.5px;
+        margin-left: 30%;
         
     }
 }
