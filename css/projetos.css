@@ -93,7 +93,7 @@
     .card-container{
         
         
-        margin-left: 8%;
+        margin-left: 3%;
         
     }
     .card{
@@ -101,7 +101,7 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        margin-left: 8%;
+        margin-left: 3%;
         width: 300px;
        
 
@@ -109,7 +109,7 @@
     .card-container a img{
         width: 300px;
         height: 187.5px;
-        margin-left: 8%;
+        margin-left: 3%;
         
     }
 }
