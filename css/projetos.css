@@ -40,32 +40,14 @@
     transform: translateY(0%);
 }
 /* TABLET */
-@media (max-width:960px){
-    .projetos{
-        max-width: 672px;
-        height: 170vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .card-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .card{
-        width: 392px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-    }    
-}
+
 
 
 /* TABLET */
 @media (max-width:960px){
     .projetos{
         max-width: 672px;
-        height: 170vh;
+        height: 280vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -88,7 +70,7 @@
         max-width: 592px;
         width: 100%;
         align-items: center;
-        height: 230vh;
+        height: 170vh;
     }
 
     .card{

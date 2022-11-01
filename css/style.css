@@ -82,6 +82,8 @@ footer{
 
 /* MOBILE */
 @media (max-width:640px){
- 
+    footer{
+        font-size: .8rem;
+    }
 
 }
