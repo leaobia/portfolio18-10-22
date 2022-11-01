@@ -77,7 +77,13 @@
 
 /*MOBILE*/  
 @media (max-width:640px){
+    .projetos{
+        max-width: 592px;
+        width: 100%;
+        align-items: center;
+        height: 360vh;
 
+    }
     .card-container a img{
         width: 300px;
         height: 187.5px;
