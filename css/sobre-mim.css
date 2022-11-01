@@ -118,11 +118,10 @@
     }
     .skills__icons{
         display: flex;
-        width: 50%;
-        margin-left: 20%;
+  
         justify-content: center;
     }
     .icon{
-        margin-left: 20%;
+        
     }
 }
