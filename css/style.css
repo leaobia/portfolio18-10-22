@@ -83,6 +83,7 @@ footer{
 /* MOBILE */
 @media (max-width:640px){
     footer{
+        height: auto;
         font-size: .8rem;
     }
 
